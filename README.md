@@ -51,4 +51,6 @@ DB_PASSWORD=root
 
 `yarn dev`
 
-`chmod -R 755 storage/`
+`touch storage/logs/laravel.log`
+
+`chmod -R 777 storage/`
