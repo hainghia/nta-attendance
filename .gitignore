@@ -1,10 +1,8 @@
-##Environment
-# /.idea
-# /.vscode
-# /.data
+#Environment
+.idea/
+.vscode/
+.data/
 
 ##Docker
-db
-# nginx
-# php-fpm
-# docker-compose.yml
+docker/
+docker-compose.yml

@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+}
+#auth {
+    height: 100vh;
+    overflow-x: hidden;
+    background: url(../../../assets/images/bg-auth.svg) no-repeat center;
+    background-size: cover;
+    #auth-right {
+        height: 100%;
+    }
+    #auth-left {
+        padding: 5rem 8rem;
+        background-color: #fff;
+        .auth-title {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .auth-subtitle {
+            font-size: 1.7rem;
+            line-height: 2.5rem;
+            color: #a8aebb;
+        }
+        .auth-logo {
+            margin-bottom: 7rem;
+            img {
+                height: 2rem;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            padding: 5rem;
+        }
+    }
+}
