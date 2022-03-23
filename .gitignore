@@ -1,0 +1,10 @@
+##Environment
+# /.idea
+# /.vscode
+# /.data
+
+##Docker
+db
+# nginx
+# php-fpm
+# docker-compose.yml
