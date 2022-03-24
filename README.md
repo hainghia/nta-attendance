@@ -54,3 +54,8 @@ DB_PASSWORD=root
 `touch storage/logs/laravel.log`
 
 `chmod -R 777 storage/`
+
+## Docker Ubuntu
+> Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/PHP/json": dial unix /var/run/docker.sock: connect: permission denied
+
+`sudo chmod 666 /var/run/docker.sock`
