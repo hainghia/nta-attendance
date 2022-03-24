@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * Public Route
+ */
 Route::get('/', function () {
-    return view('welcome');
+  return view('welcome');
 });
