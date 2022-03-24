@@ -14,7 +14,7 @@ class HomeController extends Controller
    */
   public function index()
   {
-    return view('public.index', [
+    return view('public.pages.index', [
       'title' => 'Trang chuuuu'
     ]);
   }
