@@ -46,7 +46,7 @@
       "savePath": "~/../"
     }
   ],
-
+  "liveSassCompile.settings.showOutputWindow": false,
   "liveSassCompile.settings.generateMap": true,
   /*Những mục không compiler*/
   "liveSassCompile.settings.excludeList": [

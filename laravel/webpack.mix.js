@@ -29,10 +29,7 @@ mix.sass("resources/assets/sass/app.scss", "public/vendor/css/", {
 mix.js("resources/assets/js/admin.js", "public/vendor/js/");
 mix.js("resources/assets/js/app.js", "public/vendor/js/");
 mix.copy("node_modules/ckeditor4/", "public/vendor/ckeditor4/");
-mix.copy(
-  "node_modules/bs-custom-file-input/",
-  "public/vendor/bs-custom-file-input/"
-);
+mix.copy("node_modules/swiper", "public/vendor/swiper/");
 /** Global */
 mix.options({
   postCss: [require("autoprefixer")]

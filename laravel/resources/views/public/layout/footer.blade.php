@@ -1,6 +1,5 @@
-<!-- Footer -->
 <div class="footer bg-gray">
-  <img class="decoration-city" src="images/decoration-city.svg" alt="alternative">
+  <img class="decoration-city" src="{{ asset('assets/public/images/decoration-city.svg') }}" alt="alternative">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -43,8 +42,6 @@
 </div> <!-- end of footer -->
 <!-- end of footer -->
 
-
-<!-- Copyright -->
 <div class="copyright bg-gray">
   <div class="container">
     <div class="row">
@@ -59,28 +56,11 @@
         <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
       </div> <!-- end of col -->
       <div class="col-lg-3">
-        <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
+        <p class="p-small statement">Distributed By: <a href="{{ URL::to('/') }}" target="_blank">Nitro Tech Asia</a></p>
       </div> <!-- end of col -->
     </div> <!-- enf of row -->
   </div> <!-- end of container -->
 </div> <!-- end of copyright -->
-<!-- end of copyright -->
 
-
-<!-- Back To Top Button -->
-<button onclick="topFunction()" id="myBtn">
-  <img src="images/up-arrow.png" alt="alternative">
-</button>
-<!-- end of back to top button -->
-
-<!-- Scripts -->
-<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-<script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-<script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-<script src="js/scripts.js"></script> <!-- Custom scripts -->
-
-
-<script src="{{ asset('vendor/js/admin.js') }}"></script>
-<script src="{{ asset('assets/admin/js/main.js') }}"></script>
+<script src="{{ asset('vendor/js/app.js') }}"></script>
 @yield('footer')
