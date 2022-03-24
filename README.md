@@ -41,6 +41,8 @@ DB_PASSWORD=root
 
 `docker exec -it PHP bash`
 
+`sudo install -C -m 777 .env.example .env`
+
 `composer install`
 
 `yarn install`
