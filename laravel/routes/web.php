@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Web\Private\LoginController;
 use App\Http\Controllers\Web\Public\Home\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +21,12 @@ use Illuminate\Support\Facades\Route;
 
 /* Pages Hom */
 Route::get('/', [HomeController::class, 'index']);
+
+/* Pages Login */
+Route::get('/admin/users/login', [LoginController::class, 'index'])->name('login');
+Route::post('/admin/users/login/store', [LoginController::class, 'store']);
+
+Route::controller(LoginController::class)->group(function () {
+  Route::get('/orders/{id}', 'show');
+  Route::post('/orders', 'store');
+});
