@@ -35,13 +35,11 @@
               <i class="fab fa-youtube fa-stack-1x"></i>
             </a>
           </span>
-        </div> <!-- end of social-container -->
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-  </div> <!-- end of container -->
-</div> <!-- end of footer -->
-<!-- end of footer -->
-
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="copyright bg-gray">
   <div class="container">
     <div class="row">

@@ -12,7 +12,7 @@
       </div>
       <div class="col-lg-6 col-xl-7">
         <div class="image-container">
-          <img class="img-fluid" src="images/header-illustration.svg" alt="alternative">
+          <img class="img-fluid" src="{{ asset('assets/public/images/NitroTechAsia.svg') }}" alt="alternative" width="500">
         </div>
       </div>
     </div>
