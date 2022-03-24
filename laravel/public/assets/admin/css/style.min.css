@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* ============ RESPONSIVE ============ */
+/**=========== TYPOGRAPHY ===========*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+/**=========== CONFIG ===========*/
+/* ============ LAYOUT ============ */
+/**=========== HEADER ===========*/
+/**=========== MAIN ===========*/
+#page-admin {
+  /*Pagination Navigation*/
+}
+
+#page-admin #image-preview img {
+  width: 200px;
+}
+
+#page-admin #upload::-webkit-file-upload-button {
+  visibility: visible;
+  -webkit-user-select: none;
+          user-select: none;
+  position: absolute;
+  opacity: 1;
+  left: 0px;
+  top: -2px;
+}
+
+#page-admin #upload {
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#page-admin #example1_paginate svg {
+  width: 20px;
+  height: 20px;
+}
+
+/**=========== FOOTER ===========*/
+/* ============ PAGES ============ */
+/* ============ Product ============ */
+/* ============ RESPONSIVE ============ */
+/*============================================ IMPORT ALL FILE RESPONSIVE ============================================*/
+/**=========== UHD (4K): 3840 x 2160 pixels hoặc 4096 x 2160 pixels ===========*/
+/**=========== QHD+ (2K+): Có độ phân giải khoảng 3200 x 1800 pixels, 2960 x 1440 pixels, 3120 x 1440 pixels ===========*/
+/**=========== QHD (2K): 2560 x 1440 pixels ===========*/
+/**=========== Full HD+ : Có độ phân giải khoảng 2160 x 1080 pixels, 2280 x 1080 pixels, 2340 x 1080 pixels ===========*/
+/**===========  Full HD: 1920 x 1080 pixels. ===========*/
+/**=========== Có độ phân giải khoảng 1440 x 720 pixels và các biến thể như 1480 x 720 pixels, 1520 x 720 pixels ===========*/
+/**=========== XGA: 1024 x 768 pixels và có khung tỉ lệ 4:3 ===========*/
+/**=========== máy tính bảng loại to, hiển thị chiều ngang ===========*/
+/**=========== landscape phones ===========*/
+/**=========== landscape phones ===========*/
+/*# sourceMappingURL=style.min.css.map */

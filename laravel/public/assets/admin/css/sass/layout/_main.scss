@@ -1,0 +1,31 @@
+/**=========== MAIN ===========*/
+
+#page-admin {
+  #image-preview {
+    img {
+      width: 200px;
+    }
+  }
+
+  #upload::-webkit-file-upload-button {
+    visibility: visible;
+    user-select: none;
+    position: absolute;
+    opacity: 1;
+    left: 0px;
+    top: -2px;
+  }
+  #upload {
+    display: block;
+
+    user-select: none;
+  }
+
+  /*Pagination Navigation*/
+  #example1_paginate {
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

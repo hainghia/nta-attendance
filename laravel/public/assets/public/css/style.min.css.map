@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,0CAA0C;ACA1C,uCAAuC;AACvC,OAAO,CAAC,wJAAI;ACDZ,mCAAmC;AFInC,sCAAsC;AGJtC,mCAAmC;ACAnC,iCAAiC;ACAjC,mCAAmC;ALSnC,qCAAqC;AAErC,0CAA0C;AMX1C,wHAAwH;ACAxH,kFAAkF;ACAlF,6HAA6H;ACA7H,yDAAyD;ACAzD,4HAA4H;ACA5H,0DAA0D;ACA1D,mIAAmI;ACAnI,2EAA2E;ACA3E,6EAA6E;ACA7E,6CAA6C;ACA7C,6CAA6C",
+    "sources": [
+        "sass/style.scss",
+        "sass/base/_typography.scss",
+        "sass/base/_config.scss",
+        "sass/layout/_header.scss",
+        "sass/layout/_main.scss",
+        "sass/layout/_footer.scss",
+        "sass/responsive/_responsives.scss",
+        "sass/responsive/1-UHD-3840/_responsive.scss",
+        "sass/responsive/2-QHD-Plus-2960/_responsive.scss",
+        "sass/responsive/3-QHD-2560/_responsive.scss",
+        "sass/responsive/4-FHD-Plus-2160/_responsive.scss",
+        "sass/responsive/5-FHD-1920/_responsive.scss",
+        "sass/responsive/6-HD-Plus-1440/_responsive.scss",
+        "sass/responsive/7-HD-1280/_responsive.scss",
+        "sass/responsive/8-Tablet-1024/_responsive.scss",
+        "sass/responsive/9-Mobile-large/_responsive.scss",
+        "sass/responsive/10-Mobile-small/_responsive.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}

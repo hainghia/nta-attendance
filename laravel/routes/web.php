@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Web\Public\Home\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 /**
  * Public Route
  */
-Route::get('/', function () {
-  return view('welcome');
-});
+
+/* Pages Hom */
+Route::get('/', [HomeController::class, 'index']);
