@@ -1,6 +1,4 @@
-const mix = require('laravel-mix');
-
-/*
+/**
  |--------------------------------------------------------------------------
  | Mix Asset Management
  |--------------------------------------------------------------------------
@@ -11,7 +9,32 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+const mix = require("laravel-mix");
+
+mix.disableNotifications();
+
+/** Vendor */
+mix.sass("resources/assets/sass/admin.scss", "public/vendor/css/", {
+  sassOptions: {
+    outputStyle: "compressed" /* nested, expanded, compact, compressed */,
+    processCssUrls: true,
+  },
+});
+mix.sass("resources/assets/sass/app.scss", "public/vendor/css/", {
+  sassOptions: {
+    outputStyle: "compressed" /* nested, expanded, compact, compressed */,
+    processCssUrls: true,
+  },
+});
+mix.js("resources/assets/js/admin.js", "public/vendor/js/");
+mix.js("resources/assets/js/app.js", "public/vendor/js/");
+mix.copy("node_modules/ckeditor4/", "public/vendor/ckeditor4/");
+mix.copy(
+  "node_modules/bs-custom-file-input/",
+  "public/vendor/bs-custom-file-input/"
+);
+/** Global */
+mix.options({
+  postCss: [require("autoprefixer")]
+});
+mix.version();
