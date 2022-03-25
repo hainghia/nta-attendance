@@ -20,13 +20,10 @@ use Illuminate\Support\Facades\Route;
  */
 
 /* Pages Hom */
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('index');
 
 /* Pages Login */
-Route::get('/admin/users/login', [LoginController::class, 'index'])->name('login');
-Route::post('/admin/users/login/store', [LoginController::class, 'store']);
-
 Route::controller(LoginController::class)->group(function () {
-  Route::get('/orders/{id}', 'show');
-  Route::post('/orders', 'store');
+  Route::get('/login', 'create');
+  Route::post('/login', 'store');
 });

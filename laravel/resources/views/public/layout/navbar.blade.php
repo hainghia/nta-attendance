@@ -20,7 +20,7 @@
         </li>
       </ul>
       <span class="nav-item">
-        <a class="btn-solid-sm" href="#contact">Login</a>
+        <a class="btn-solid-sm" href="{{ URL::to('/login') }}">Login</a>
       </span>
     </div>
   </div>

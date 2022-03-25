@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-  @include('admin.head')
+  @include('private.layout.head')
 </head>
 
 <body class="hold-transition login-page">
   <div class="login-box">
     <div class="card">
       <div class="card-body login-card-body">
-        @include('admin.alert')
-        <form action="/admin/users/login/store" method="post">
+        @include('private.components.alert')
+        <form action="/login" method="post">
           <div class="input-group mb-3">
             <input type="email" name="email" class="form-control" placeholder="Email">
             <div class="input-group-append">
@@ -49,7 +49,7 @@
     </div>
   </div>
   <!-- /.login-box -->
-  @include('admin.footer')
+  @include('private.layout.footer')
 </body>
 
 </html>
