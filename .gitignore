@@ -1,10 +1,10 @@
 ##Environment
-/.idea
-/.vscode
-/.data
+.idea/
+.vscode/
+.data/
 
 ##Docker
-/_docker
+_docker/
 
 #Directory Structure Laravel
 /node_modules
