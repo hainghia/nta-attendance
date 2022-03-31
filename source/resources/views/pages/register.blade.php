@@ -8,8 +8,9 @@
           <div class="auth-logo">
             <a href="index.html"><img src="{{ asset('/assets/images/logo.svg') }}" alt="Logo"></a>
           </div>
-          <h1 class="auth-title">Sign Up</h1>
-          <p class="auth-subtitle mb-5">Input your data to register to our website.</p>
+          <h1 class="auth-title">Đăng ký</h1>
+          <p class="auth-subtitle mb-5">Đăng ký hệ thông Nitro Tech Asia Attendace</p>
+          @include('components.alert')
           <form id="form" action="{{ route('register.store') }}" method="POST">
             <div class="form-group position-relative has-icon-left mb-4">
               <input type="email" class="form-control form-control-xl" placeholder="Email" name="email" id="email" value="{{ old('email') }}" data-parsley-trigger="change" required>
@@ -38,7 +39,7 @@
             <div class="form-group position-relative has-icon-left mb-4">
               <div class="form-check form-check-lg">
                 <div class="custom-control custom-checkbox">
-                  <input type="checkbox" class="form-check-input form-check-primary form-check-glow" name="agree" id="agree">
+                  <input type="checkbox" class="form-check-input form-check-primary form-check-glow" name="agree" id="agree" data-parsley-trigger="change" required>
                   <label class="form-check-label" for="agree">I agree to the <a href="#">terms</a></label>
                 </div>
               </div>

@@ -9,6 +9,7 @@
           </div>
           <h1 class="auth-title">Đăng nhập</h1>
           <p class="auth-subtitle mb-5">Đăng nhập hệ thông Nitro Tech Asia Attendance</p>
+          @include('components.alert')
           <form id="form" action="{{ route('login.store') }}" method="POST">
             <div class="form-group position-relative has-icon-left mb-4">
               <input type="email" class="form-control form-control-xl" placeholder="Email" name="email" id="email" value="{{ old('email') }}" data-parsley-trigger="change" required>
