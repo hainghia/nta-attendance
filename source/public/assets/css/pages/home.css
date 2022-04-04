@@ -1,0 +1,47 @@
+.navbar {
+  padding-top: 20px;
+}
+.navbar .navbar-nav .nav-link {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #242424;
+}
+.navbar .navbar-nav .btn-warning {
+  padding: 12px 38px;
+  border-radius: 5px;
+  background: #f96300;
+  margin: 0px 50px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#home .main {
+  margin-top: 120px;
+}
+#home .main .content {
+  padding-top: 65px;
+}
+#home .main .content .download {
+  display: flex;
+}
+#home .main .content .download .icon {
+  padding-right: 50px;
+}
+#home .main .content .download .icon svg {
+  height: 80px;
+}
+#home .main .slide {
+  display: flex;
+  justify-content: flex-end;
+}
+#home .main .slide .carousel-inner {
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  #home {
+    padding: 5rem;
+  }
+}

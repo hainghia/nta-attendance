@@ -3,17 +3,19 @@
 namespace App\Http\Controllers\Web\Public;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
   /**
-   * Display a listing of the resource.
+   ** Display a listing of the resource.
    *
    * @return \Illuminate\Http\Response
+   * Todo: Display a listing of the resource.
    */
   public function index()
   {
-    return 'Trang chủ';
+    return view('pages.home', [
+      'title' => 'Welcome to Nitro Tech Asia - Attendance',
+    ]);
   }
 }
