@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://laravel.com" target="_blank">
-<img src="/source/public/logo.svg" width="400">
+<img src="/source/public/favicon.svg" width="400">
 </a></p>
 
 <p align="center">
@@ -59,6 +59,10 @@ Copy the .env.example file in the Laravel folder and rename it to .env
 `yarn dev`
 
 `touch storage/logs/laravel.log`
+
+`php artisan storage:link`
+
+`cd public && ln -s ../storage/app/public storage`
 
 `chmod -R 777 storage/`
 
