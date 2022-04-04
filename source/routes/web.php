@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Web\Private\HomeController as PrivateHomeController;
 use App\Http\Controllers\Web\Public\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -31,16 +32,6 @@ Route::prefix('/')->group(function () {
 
 
 
-
-
-
-
-Route::middleware([
-  'auth:sanctum',
-  config('jetstream.auth_session'),
-  'verified'
-])->group(function () {
-  Route::get('/dashboard', function () {
-    return view('dashboard');
-  })->name('dashboard');
+Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
+  Route::get('/dashboard', [PrivateHomeController::class, 'index'])->name('dashboard');
 });

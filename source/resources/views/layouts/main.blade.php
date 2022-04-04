@@ -8,7 +8,6 @@
   <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon" sizes="any">
   <link rel="manifest" href="{{ asset('/manifest.json') }}">
   <title>{{ config('app.name', 'Laravel') }}</title>
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
   <link rel="stylesheet" href="{{ asset('assets/css/root.css') }}">
   <meta name="csrf-token" content="{{ csrf_token() }}">

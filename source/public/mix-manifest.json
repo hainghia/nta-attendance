@@ -19,5 +19,10 @@
     "/assets/js/parsleyjs/parsley.js.map": "/assets/js/parsleyjs/parsley.js.map",
     "/assets/js/parsleyjs/parsley.min.js": "/assets/js/parsleyjs/parsley.min.js",
     "/assets/js/parsleyjs/parsley.min.js.map": "/assets/js/parsleyjs/parsley.min.js.map",
+    "/assets/js/main.js": "/assets/js/main.js",
+    "/assets/js/pages/dashboard.js": "/assets/js/pages/dashboard.js",
+    "/assets/js/pages/form-editor.js": "/assets/js/pages/form-editor.js",
+    "/assets/js/pages/ui-apexchart.js": "/assets/js/pages/ui-apexchart.js",
+    "/assets/js/pages/ui-chartjs.js": "/assets/js/pages/ui-chartjs.js",
     "/assets/js/flowbite.js": "/assets/js/flowbite.js"
 }

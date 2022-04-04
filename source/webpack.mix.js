@@ -26,6 +26,8 @@ mix.copy("node_modules/bootstrap-icons/font/fonts", "public/assets/css/fonts")
   .copy("node_modules/@fortawesome/fontawesome-free/webfonts", "public/assets/css/fonts")
   .copy("node_modules/apexcharts/dist/apexcharts.min.js", "public/assets/js")
   .copy("node_modules/parsleyjs/dist/", "public/assets/js/parsleyjs")
+  .copy("resources/assets/js/main.js", "public/assets/js/main.js")
+  .copy("resources/assets/js/pages/", "public/assets/js/pages/")
 // mix.copy("node_modules/ckeditor4/", "public/assets/ckeditor4/");
 
 mix.copy('node_modules/flowbite/dist/flowbite.js', 'public/assets/js')

@@ -3,4 +3,5 @@ try {
   window.$ = window.jQuery = require("jquery");
   require("bootstrap");
 } catch (e) { }
+require("perfect-scrollbar");
 require("parsleyjs");
