@@ -4,7 +4,7 @@
 </a></p>
 
 <p align="center">
-<a>Laravel 9.5.1</a>
+<a>Laravel 9.6.0</a>
 <a>Docker 20.10.13</a> |
 <a>NGINX 1.2.6</a> |
 <a>PHP 8.1.4</a> |
