@@ -1,11 +1,9 @@
 {
+    "/js/app.js": "/js/app.js",
     "/assets/js/app.js": "/assets/js/app.js",
-    "/assets/css/root.css": "/assets/css/root.css",
+    "/css/app.css": "/css/app.css",
+    "/assets/css/pages/page-auth.css": "/assets/css/pages/page-auth.css",
     "/assets/css/app.css": "/assets/css/app.css",
-    "/assets/css/pages/auth.css": "/assets/css/pages/auth.css",
-    "/assets/css/pages/home.css": "/assets/css/pages/home.css",
-    "/assets/css/fonts/bootstrap-icons.woff": "/assets/css/fonts/bootstrap-icons.woff",
-    "/assets/css/fonts/bootstrap-icons.woff2": "/assets/css/fonts/bootstrap-icons.woff2",
     "/assets/css/fonts/fa-brands-400.ttf": "/assets/css/fonts/fa-brands-400.ttf",
     "/assets/css/fonts/fa-brands-400.woff2": "/assets/css/fonts/fa-brands-400.woff2",
     "/assets/css/fonts/fa-regular-400.ttf": "/assets/css/fonts/fa-regular-400.ttf",
@@ -14,15 +12,8 @@
     "/assets/css/fonts/fa-solid-900.woff2": "/assets/css/fonts/fa-solid-900.woff2",
     "/assets/css/fonts/fa-v4compatibility.ttf": "/assets/css/fonts/fa-v4compatibility.ttf",
     "/assets/css/fonts/fa-v4compatibility.woff2": "/assets/css/fonts/fa-v4compatibility.woff2",
-    "/assets/js/apexcharts.min.js": "/assets/js/apexcharts.min.js",
     "/assets/js/parsleyjs/parsley.js": "/assets/js/parsleyjs/parsley.js",
     "/assets/js/parsleyjs/parsley.js.map": "/assets/js/parsleyjs/parsley.js.map",
     "/assets/js/parsleyjs/parsley.min.js": "/assets/js/parsleyjs/parsley.min.js",
-    "/assets/js/parsleyjs/parsley.min.js.map": "/assets/js/parsleyjs/parsley.min.js.map",
-    "/assets/js/main.js": "/assets/js/main.js",
-    "/assets/js/pages/dashboard.js": "/assets/js/pages/dashboard.js",
-    "/assets/js/pages/form-editor.js": "/assets/js/pages/form-editor.js",
-    "/assets/js/pages/ui-apexchart.js": "/assets/js/pages/ui-apexchart.js",
-    "/assets/js/pages/ui-chartjs.js": "/assets/js/pages/ui-chartjs.js",
-    "/assets/js/flowbite.js": "/assets/js/flowbite.js"
+    "/assets/js/parsleyjs/parsley.min.js.map": "/assets/js/parsleyjs/parsley.min.js.map"
 }
